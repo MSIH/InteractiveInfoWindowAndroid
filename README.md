@@ -77,7 +77,8 @@ Listen when an InfoWindow is hiding or showing by implementing InfoWindowManager
 ```
 You can get an instance of the GoogleMap by calling ```mapInfoWindowFragment.getMapAsync(onMapReadyCallback)```.
 
-_If you don't want to use our fragment it's okay but it's not that straight-forward. You have to bind the InfoWindowManager to your Activity/Fragment and add TouchInterceptFrameLayout as a parent of your map. Take a look at [this example](https://github.com/Appolica/InteractiveInfoWindowAndroid/blob/develop/sample/src/main/java/com/appolica/sample/activities/SampleWithMapViewActivity.java)._
+_If you don't want to use our fragment it's okay but it's not that straight-forward. You have to bind the InfoWindowManager to your Activity/Fragment and add TouchInterceptFrameLayout as a parent of your map. Take a look at [this example](
+https://github.com/Appolica/InteractiveInfoWindowAndroid/blob/master/InteractiveInfoWindowAndroid/sample/src/main/java/com/appolica/sample/activities/SampleWithMapViewActivity.java)._
 
 ## API
 
